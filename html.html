@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<!--My html server -->
+<html lang="en">
+ <!--In head we add css or java sript file -->   
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- it help to describe the web page -->
+    <meta name="description" content="This is description">
+    <!-- it help for SEO -->
+    <meta name="keywords" content="Html,web devlopment,html tutorial">
+    <!-- it you want that your web page link is conneced to others webpages than -->
+    <!-- if no than NOFOLLOW, NOINDEX -->
+    <meta name="robots" content="FOLLOW, INDEX">
+    <!-- this is for include external link -->
+    <link rel="stylesheet" href="vicky.css">
+    <!-- this is how to include javascript link -->
+    <script src="vicky.js"></script>
+    <title>Vicky</title>
+</head>
+<!-- In body tag our main conaint lies -->
+<body>
+    <h1>vicky</h1>
+    <h2>vicky</h2>
+    <h3>vicky</h3>
+    <h4>vicky</h4>
+    <h5>vicky</h5>
+    <h6>vicky</h6>
+    <p> hello world, i am  born :-)</p>
+   <p>
+       <!-- lorem34 is used to 34 dumpy text -->
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis blanditiis, nostrum numquam cupiditate expedita doloribus natus consectetur in <strong>This is strong</strong> maxime dolor aut a necessitatibus sapiente labore <em>This is emphasized</em> dolore rem eveniet impedit ea iusto deleniti. Molestiae quidem maxime error ut, odio a excepturi. </p>
+
+       <p>This is <br>for new line</p>
+       <!-- for 4 paragrapg use p*4  -->
+    <p>good1</p>
+    <p>good2</p>
+    <!-- for a line -->
+    <hr>
+    <!-- cntr + enter to jump into new link -->
+
+    <p>good3</p>
+    <p>good4</p>
+    <hr>
+    <!-- anchor (a) is used to link a webpage or website -->
+    <!-- for open in new tab use target attribute -->
+    <a href="https://google.com"  target="_blank">Go to google</a><br>
+    <a href="https://facebook.com" target="_blank">Go to facebook</a><br>
+    <a href="https://youtube.com" target="_blank">Go to youtube</a><br>
+    <!-- for internal link  -->
+    <a href="/tuf2.html" target="_blank">tuf2</a><br>
+    <!-- image not present than alt tag is shown -->
+    <img src="vicky.jpg" alt="Error in loading image">
+    <img src="https://source.unsplash.com/user/erondu/160x90" alt="remote image">
+    <hr>
+    <!-- this is for unordered list -->
+    <ul type="circle">
+        <li>Milk</li>
+        <li>greentea</li>
+        <li>water</li>
+        
+    </ul>
+    <!-- this is for ordered list -->
+    <ol type="I">
+        <li>first</li>
+        <li>second</li>
+        <li>third</li>
+    </ol>
+    <hr>
+    <!-- HTML TABLE  -->
+    <h3>HTML TABLE</h3>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>roll_no</th>
+                <th>class</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>vicky</td>
+                <td>01</td>
+                <td>Btech</td>
+            </tr>
+            <tr>
+                <td>bunty</td>
+                <td>02</td>
+                <td>Mtech</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <hr>
+
+    <!-- Form is used to store the data into the backend -->
+    <form action="backend.php"></form>
+    <!-- used div instead of break for go into another line -->
+    <div>
+        Name : <input type="text" name="myname">
+    </div>
+    <div>
+        Roll no.  : <input type="text" name="myroll">
+    </div><div>
+        email  : <input type="email" name="my email">
+    </div>
+</div>
+<div>
+    Are you eligible?  <input type="checkbox" name="eligible">
+</div>
+<div>
+    Gender : Male<input type="radio" name="Gender"> FeMale<input type="radio" name="Gender">
+</div>
+<div>
+    Write about yourself : <textarea name="text describe" cols="30" rows="10"></textarea>
+</div>
+<br>
+<div>
+    <input type="submit" value="submit now">
+    <input type="reset" value="reset now">
+    </div>
+
+    <hr>
+
+    <!-- Inline and block element -->
+    <!-- paragraph is a block element and span is a in line element  -->
+    <p>This is a paragaph1</p>
+    <p>He is a paragraph2</p>
+    <span>this is span1</span>
+    <span>this is span2</span>
+
+    <hr>
+    <h3>Ids and class</h3>
+    <div id="mainBox" class="redBg blackBorder">This is mainBox</div>
+    <!-- . is for class and # is for main id -->
+    <span class="redBg"></span>
+    <span id="maxBox"></span> 
+    <!-- Emmet takes div as default as .classname  -->
+    <div class="redBg"></div>  <!-- .redBg -->
+    <!-- creating multiple element using emmet  -->
+    <!-- span.myclass1.myclass2.myclass3*4 + <tab> to print 4 similar elements using emmet -->
+        <span class="myclass1 myclass2 myclass3">First</span>
+        <span class="myclass1 myclass2 myclass3">Seconf</span>
+        <span class="myclass1 myclass2 myclass3">Third</span>
+        <span class="myclass1 myclass2 myclass3">Fourth</span>
+
+        <hr>
+        <h3>Entities</h3>
+        <div class="container">
+            <p>This is paragraph</p>
+        </div>
+        <div class="container">
+            <p>This is another &nbsp;paragraph</p> <!-- this is for space -->
+            <p>parapragh is written like this &lt;p&gt;</p> <!-- reffer any website on google with entities references -->
+            <p>pound is written like this &pound;</p>
+
+            <hr>
+            <h3>Semantic Elements</h3>
+            <details>
+                <summary>this is summarry</summary>
+                this in inside deails
+            </details>
+        </div>
+        <hr>
+
+</body>
+</html>
